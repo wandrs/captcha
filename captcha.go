@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/Unknwon/com"
-	"github.com/go-macaron/cache"
-	"gopkg.in/macaron.v1"
+	"gitea.com/macaron/cache"
+	"gitea.com/macaron/macaron"
 )
 
 const _VERSION = "0.1.0"

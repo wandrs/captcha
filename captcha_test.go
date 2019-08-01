@@ -19,9 +19,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/go-macaron/cache"
 	. "github.com/smartystreets/goconvey/convey"
-	"gopkg.in/macaron.v1"
+	"gitea.com/macaron/cache"
+	"gitea.com/macaron/macaron"
 )
 
 func Test_Version(t *testing.T) {
