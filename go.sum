@@ -1,7 +1,9 @@
 gitea.com/macaron/cache v0.0.0-20190801013118-abcd497fea65 h1:usQHpW8O5qaS/W/0BdORneZoHRvnebzyzJ1etvv65qQ=
 gitea.com/macaron/cache v0.0.0-20190801013118-abcd497fea65/go.mod h1:Of5o0HfJoOC7luU1o6TEgoQj4o5b7Mm1sWyRAmA13kA=
-gitea.com/macaron/macaron v1.3.2 h1:QGvv4g4438sOorlZn3XVScQI/wkCDR0iM1SYdGfxl5A=
-gitea.com/macaron/macaron v1.3.2/go.mod h1:x30d38SbJFBUEO2Mgz7loekCzr87U9UaUDNbSAOxg5k=
+gitea.com/macaron/inject v0.0.0-20190803172902-8375ba841591 h1:UbCTjPcLrNxR9LzKDjQBMT2zoxZuEnca1pZCpgeMuhQ=
+gitea.com/macaron/inject v0.0.0-20190803172902-8375ba841591/go.mod h1:h6E4kLao1Yko6DOU6QDnQPcuoNzvbZqzj2mtPcEn1aM=
+gitea.com/macaron/macaron v1.3.3-0.20190803174002-53e005ff4827 h1:/rT4MEFjhdViy2BFWKUwbC0JSNSziEbBCM7q4/B9qgo=
+gitea.com/macaron/macaron v1.3.3-0.20190803174002-53e005ff4827/go.mod h1:/rvxMjIkOq4BM8uPUb+VHuU02ZfAO6R4+wD//tiCiRw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Unknwon/com v0.0.0-20190321035513-0fed4efef755 h1:1B7wb36fHLSwZfHg6ngZhhtIEHQjiC5H4p7qQGBEffg=
 github.com/Unknwon/com v0.0.0-20190321035513-0fed4efef755/go.mod h1:voKvFVpXBJxdIPeqjoJuLK+UVcRlo/JLjeToGxPYu68=
