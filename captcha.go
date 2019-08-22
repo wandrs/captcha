@@ -23,9 +23,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/Unknwon/com"
 	"gitea.com/macaron/cache"
 	"gitea.com/macaron/macaron"
+	"github.com/unknwon/com"
 )
 
 const _VERSION = "0.1.0"
