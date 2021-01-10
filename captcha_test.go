@@ -19,29 +19,28 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"gitea.com/go-chi/cache"
+	"github.com/go-chi/chi"
 	. "github.com/smartystreets/goconvey/convey"
-	"gitea.com/macaron/cache"
-	"gitea.com/macaron/macaron"
 )
-
-func Test_Version(t *testing.T) {
-	Convey("Get version", t, func() {
-		So(Version(), ShouldEqual, _VERSION)
-	})
-}
 
 func Test_Captcha(t *testing.T) {
 	Convey("Captch service", t, func() {
-		m := macaron.New()
-		m.Use(cache.Cacher())
-		m.Use(Captchaer())
-		m.Get("/", func() {
+		c, err := cache.NewCacher(cache.Options{})
+		So(err, ShouldBeNil)
+
+		r := chi.NewRouter()
+		captcha := NewCaptcha(Options{})
+		captcha.Store = c
+		r.Use(Captchaer(captcha))
+
+		r.Get("/", func(w http.ResponseWriter, req *http.Request) {
 
 		})
 
 		resp := httptest.NewRecorder()
 		req, err := http.NewRequest("GET", "/", nil)
 		So(err, ShouldBeNil)
-		m.ServeHTTP(resp, req)
+		r.ServeHTTP(resp, req)
 	})
 }
