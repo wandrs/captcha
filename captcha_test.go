@@ -19,9 +19,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gitea.com/go-chi/cache"
 	"github.com/go-chi/chi"
 	. "github.com/smartystreets/goconvey/convey"
+	"go.wandrs.dev/cache"
 )
 
 func Test_Captcha(t *testing.T) {

@@ -24,8 +24,8 @@ import (
 	"path"
 	"strings"
 
-	"gitea.com/go-chi/cache"
 	"github.com/unknwon/com"
+	"go.wandrs.dev/cache"
 )
 
 const _VERSION = "0.1.0"
