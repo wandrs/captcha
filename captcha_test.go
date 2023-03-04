@@ -35,7 +35,6 @@ func Test_Captcha(t *testing.T) {
 		r.Use(Captchaer(captcha))
 
 		r.Get("/", func(w http.ResponseWriter, req *http.Request) {
-
 		})
 
 		resp := httptest.NewRecorder()

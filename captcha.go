@@ -34,9 +34,7 @@ func Version() string {
 	return _VERSION
 }
 
-var (
-	defaultChars = []byte{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-)
+var defaultChars = []byte{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 // Captcha represents a captcha service.
 type Captcha struct {
