@@ -3,7 +3,7 @@ module go.wandrs.dev/captcha
 go 1.19
 
 require (
-	github.com/go-chi/chi/v5 v5.0.3
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/unknwon/com v1.0.1
 	go.wandrs.dev/cache v0.0.0-20210531101526-aaa24f392b30
